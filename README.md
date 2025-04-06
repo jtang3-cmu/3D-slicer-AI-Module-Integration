@@ -45,7 +45,7 @@ This repository provides a general-purpose framework and tutorial for integratin
   - Create a project folder. The folder structure should be corresponding to your system design.
   - Write Dockerfile
    ![圖片1](https://github.com/user-attachments/assets/86d9b8b9-56ac-40ea-97aa-d3a40761b80b)
-  - Build Docker Image `bash docker build -t {your_image_name} . (❗Don't forget the "." in the end of the command!!!)
+  - Build Docker Image `bash docker build -t {your_image_name} .‵ (❗Don't forget the "." in the end of the command!!!)
   - Activate Docker Container `bash docker run -d {your_image_name}
   - Check in Docker Desktop image and container tab.
 
