@@ -1,4 +1,4 @@
-# 3D Slicer AI Integration Framework
+# 3D Slicer AI Model Integration
 
 This repository provides a general-purpose framework and tutorial for integrating AI-based medical image models into the 3D Slicer platform. It covers the complete workflow, from Docker packaging and model deployment to UI integration and inference visualization.
 
