@@ -50,16 +50,25 @@ This repository provides a general-purpose framework and tutorial for integratin
   - Check in Docker Desktop image and container tab.
 
 4. **Develop the slicer API Using Slicer Jupyter Kernel**
-  - Download SlicerJupyter extension in 3D slicer
-  - Start Jupyter server in 3D slicer
+  - First, create a module using slicer extension wizard.
+  - Download SlicerJupyter extension in 3D slicer (This is a Jupyter Notebook that can interact with 3D Slicer, it is good for developing slicer API.)
+  - Open the module extension you created, click on Edit button to edit API
+![image](https://github.com/user-attachments/assets/d14c7e18-401b-453b-a8b9-620473ef54d8)
+
+  - Find the code section for setting button. Add button on this section and set to be listening.
+![image](https://github.com/user-attachments/assets/501d1d23-c165-49a6-a977-85f492f4ae37)
+
+  - Copy the code from the script you developed in Slicer Jupyter Kernel to the button function.
+![image](https://github.com/user-attachments/assets/d2b6a58a-ca52-404c-bba0-805e1a836251)
+
+  - Test on interating with the button to see whether it prints out the string.
 
 5. **UI Design in 3D slicer**
-![image](https://github.com/user-attachments/assets/c3b4df33-3ef1-4e7e-a2f5-8ad5b3a3bca0)
+![image](https://github.com/user-attachments/assets/eec50d82-ae61-4f85-bf36-71deaf7fbf0d)
   - Click and Drag the object you want to the work station on the middle.
   - The most useful button is push Button.
   - Click the object and you can edit the properties on the right list.
   - Be aware of the objectName of each object because we need to specify the objectName in the API to functionalize the button.
-6. 
 
 
 ## 🎖️ Examples
