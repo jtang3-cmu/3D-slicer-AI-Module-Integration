@@ -63,10 +63,13 @@ This repository provides a general-purpose framework and tutorial for integratin
 
 ## 🎖️ Examples
 1. Image Detection: Using YOLOv8 to do lung nodules detection on chest X-ray image.
+![image](https://github.com/user-attachments/assets/f9db9675-1f94-4a11-86af-c3858e5fab43)
   - Please refer to the
   - In 3D slicer, we need to use 4 lines to simulate bounding boxes in YOLO. In this example, you can see how to do it and how to group 4 lines into 1 bounding box.
 3. Image Classification: Using Seresnext and LSTM to do muti-class classification.
+
   - Please refer to the folder
-  - The model will generate the prediction of the type of Pulmonary Embolism based on Lung CT scan, and the UI will show the probability for each class.
+  - The model will generate the prediction of the type of Pulmonary Embolism based on a Lung CT scan, and the UI will show the probability for each class.
+  - demo video
 
 
