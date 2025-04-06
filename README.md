@@ -64,7 +64,6 @@ This repository provides a general-purpose framework and tutorial for integratin
 
 ## 🎖️ Examples
 1. Image Detection: Using YOLOv8 to do lung nodules detection on chest X-ray image.
-![image](https://github.com/user-attachments/assets/f9db9675-1f94-4a11-86af-c3858e5fab43)
   - Please refer to the chestyolo
   - In 3D slicer, we need to use 4 lines to simulate bounding boxes in YOLO. In this example, you can see how to do it and how to group 4 lines into 1 bounding box.
 3. Image Classification: Using Seresnext and LSTM to do muti-class classification.
