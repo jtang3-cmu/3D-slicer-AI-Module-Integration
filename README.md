@@ -14,11 +14,13 @@ This repository provides a general-purpose framework and tutorial for integratin
 ## 📌 Architecture Overview
 
 1. **AI Model Code**
-   - Supports frameworks like PyTorch, TensorFlow, etc.
+   - Mainly support PyTorch Framework
    - Includes inference scripts and preprocessing logic
 
 2. **Docker Container**
-   - Dockerfile for packaging model and dependencies
+   - Writing Dockerfile
+   - Build Docker Image
+   - Activate Docker Container
    - API interface exposed for Slicer communication
 
 3. **3D Slicer Integration**
