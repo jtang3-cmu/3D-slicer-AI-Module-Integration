@@ -46,7 +46,7 @@ This repository provides a general-purpose framework and tutorial for integratin
   - Write Dockerfile
    ![圖片1](https://github.com/user-attachments/assets/86d9b8b9-56ac-40ea-97aa-d3a40761b80b)
   - Build Docker Image: `bash docker build -t {your_image_name} .` (❗ Don't forget the `.` at the end!)
-  - Activate Docker Container `bash docker run -d {your_image_name}
+  - Activate Docker Container `bash docker run -d {your_image_name}`
   - Check in Docker Desktop image and container tab.
 
 4. **Develop the slicer API Using Slicer Jupyter Kernel**
